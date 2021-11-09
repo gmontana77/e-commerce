@@ -20,7 +20,19 @@ const Homepage = () => (
             </div>
             <div className='menu-item'>
                 <div className='content'>
-                    <div className='title'>Sandwichs</div>
+                    <div className='title'>Sandwiches</div>
+                    <span className='subtitle'>SHOP NOW</span>
+                </div>
+            </div>
+            <div className='menu-item'>
+                <div className='content'>
+                    <div className='title'>Snacks</div>
+                    <span className='subtitle'>SHOP NOW</span>
+                </div>
+            </div>
+            <div className='menu-item'>
+                <div className='content'>
+                    <div className='title'>Drinks</div>
                     <span className='subtitle'>SHOP NOW</span>
                 </div>
             </div>
