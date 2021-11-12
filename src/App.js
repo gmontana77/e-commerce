@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 import './App.css';
 
@@ -20,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default connect()(App);
