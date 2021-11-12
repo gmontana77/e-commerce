@@ -15,9 +15,13 @@
   }
 
   .custom-button {
-    width: 70%;
+    width: 30%;
     opacity: 0.9;
-    font-size: 14px;
+    font-size: 11px;
+    height: 40px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    padding: 0 20px 0 20px;
   }
   &:hover {
     .image {
@@ -46,7 +50,7 @@
     }
   }
   .productDescription {
-    width: 250px;
+    width: 100%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
