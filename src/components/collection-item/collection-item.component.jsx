@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import CustomButton from '../custom-button/custom-button.component';
 import { addItem } from '../../redux/cart/cart.actions';
 
+import { ReactComponent as Like } from '../../assets/heart.svg';
+
 import './collection-item.styles.scss';
 
 const CollectionItem = ({ item, addItem }) => {
@@ -18,6 +20,7 @@ const CollectionItem = ({ item, addItem }) => {
         }}
       />
       <div className='collection-footer'>
+      <Like className='like'/>
       <span className='productName'>{productName}</span>
       <span className='price'>${price}</span>
       </div>
