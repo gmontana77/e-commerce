@@ -4,7 +4,7 @@ const INITIAL_STATE = {
       title: 'We are serious about our products',
       imageUrl: 'https://i.ibb.co/bJbMLz6/pexels-photo-316891.png',
       id: 1,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/products'
     }
   ]
 };
