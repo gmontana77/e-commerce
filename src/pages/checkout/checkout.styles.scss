@@ -8,7 +8,7 @@
 
   .checkout-header {
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 10px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid darkgrey;
@@ -20,6 +20,18 @@
       &:last-child {
         width: 8%;
       }
+    }
+  }
+
+  @media (min-width: 900px) {
+    .checkout-header {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .checkout-header {
+      font-size: 14px;
     }
   }
 

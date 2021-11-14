@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+ 
 
 import CustomButton from '../custom-button/custom-button.component';
 import { addItem } from '../../redux/cart/cart.actions';
@@ -12,6 +13,7 @@ const CollectionItem = ({ item, addItem }) => {
   const { productName, price, imageUrl, productDescription, stock } = item;
 
   return (
+    
     <div className='collection-item'>
       <div
         className='image'
@@ -20,7 +22,9 @@ const CollectionItem = ({ item, addItem }) => {
         }}
       />
       <div className='collection-footer'>
+
       <Like className='like'/>
+      
       <span className='productName'>{productName}</span>
       <span className='price'>${price}</span>
       </div>

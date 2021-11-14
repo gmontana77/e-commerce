@@ -22,14 +22,21 @@
     left: 148px;
     color: white;
     opacity: 0.5;
+    cursor: pointer;
 
     &:hover {
       color: red;
       fill: currentColor;
+      animation: 0.8s steps(28) 1;
     }
 
-    &:focus {
-      color: red;
+    @keyframes animate {
+      0% {
+        background-position: left;
+      }
+      100% {
+        background-position: right;
+      }
     }
   }
 
